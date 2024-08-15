@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "ThemSanPham";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using Web_DienThoaiPhuKien.Models;
+@model Web_DienThoaiPhuKien.Models.SanPham
+
+<h2>Thêm Sản Phẩm</h2>
+
+<form action="ThemSanPham" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="TenSP">Tên Sản Phẩm</label>
+        <input name="TenSP" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="MoTa">Mô tả</label>
+        <textarea name="MoTa" class="form-control" rows="4"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="Gia">Giá</label>
+        <input name="Gia" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="HinhAnh">Chọn tệp hình ảnh</label>
+        <input type="file" name="file" class="form-control-file" />
+    </div>
+
+    <div class="form-group">
+        <label for="MaDM">Mã Danh Mục</label>
+        <input name="MaDM" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="SoLuongTon">Số lượng tồn</label>
+        <input name="SoLuongTon" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+</form>
+

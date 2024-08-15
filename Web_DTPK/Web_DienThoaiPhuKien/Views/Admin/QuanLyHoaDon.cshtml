@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Web_DienThoaiPhuKien.Models.HoaDon>
+
+@{
+    ViewBag.Title = "QuanLyHoaDon";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Quản lí hoá đơn</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Mã khách hàng
+        </th>
+        <th>
+            Ngày đặt
+        </th>
+        <th>
+            Thành tiền
+        </th>
+        <th>
+            Trạng thái
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaKH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayDat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ThanhTien)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrangThai)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "ChiTietHoaDon", new { maHD = item.MaHD }) |
+            @Html.ActionLink("Delete", "XoaHoaDon", new { maHD = item.MaHD })
+        </td>
+    </tr>
+}
+
+</table>
+

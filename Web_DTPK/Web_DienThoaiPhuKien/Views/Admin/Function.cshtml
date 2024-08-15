@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Function";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@using Web_DienThoaiPhuKien.Models;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Function</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <a class="header__menu-item item-products" href="#" style="color: black; font-weight: 500">Function 1</a>
+            <form method="post" action="@Url.Action("Function", "Admin")">
+                <label for="MaSPInput">Nhập mã sản phẩm để xem đánh giá trung bình:</label>
+                <input type="text" name="MaSP" id="MaSPInput" />
+                <button type="submit">Xem đánh giá</button>
+            </form>
+            @{
+                if (IsPost && !string.IsNullOrEmpty(Request["MaSP"]))
+                {
+                    int maSP = Convert.ToInt32(Request["MaSP"]);
+                    ViewBag.MaSP = maSP;
+                }
+            }
+            @if (ViewBag.MaSP != null)
+            {
+                <span>Đánh giá Sao trung bình: </span>
+                Html.RenderAction("DanhGiaTrungBinh", "Admin", new { MaSP = ViewBag.MaSP });
+            }
+        </div>
+        <div>
+            <a class="header__menu-item item-products" href="#" style="color: black; font-weight: 500">Function 2</a>
+            <form method="post" action="@Url.Action("Function", "Admin")">
+                <label for="MaKHInput">Nhập mã khách hàng để xem số lượng hóa đơn đặt bởi khách hàng:</label>
+                <input type="text" name="MaKH" id="MaKHInput" />
+                <button type="submit">Xem số lượng</button>
+            </form>
+            @{
+                if (IsPost && !string.IsNullOrEmpty(Request["MaKH"]))
+                {
+                    int maKH = Convert.ToInt32(Request["MaKH"]);
+                    ViewBag.MaKH = maKH;
+                }
+            }
+            @if (ViewBag.MaKH != null)
+            {
+                <span>Số lượng hóa đơn của khách hàng: </span>
+                Html.RenderAction("SoHoaDonCuaKhachHang", "Admin", new { customerId = ViewBag.MaKH });
+            }
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿@model List<Web_DienThoaiPhuKien.Models.SanPham>
+
+@if (Model != null && Model.Any())
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.TenSP</td>
+                    <td>@product.Gia</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Không có sản phẩm nào.</p>
+}

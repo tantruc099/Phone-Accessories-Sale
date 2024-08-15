@@ -1,0 +1,61 @@
+﻿@using Web_DienThoaiPhuKien.Models;
+@model Web_DienThoaiPhuKien.Models.SanPham
+
+@{
+    ViewBag.Title = "EditSanPham";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Sửa Sản Phẩm</h2>
+
+@using (Html.BeginForm("EditSanPham", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TenSP, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.TenSP, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.TenSP, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MoTa, htmlAttributes: new { @class = "control-label" })
+            @Html.TextAreaFor(model => model.MoTa, new { @class = "form-control", rows = 4 })
+            @Html.ValidationMessageFor(model => model.MoTa, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Gia, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.Gia, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Gia, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            Hình ảnh
+            <div class="custom-file">
+                <input type="file" name="file" class="custom-file-input" id="customFile">
+                <label class="custom-file-label" for="customFile">Chọn tệp hình ảnh</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaDM, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.MaDM, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.MaDM, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SoLuongTon, htmlAttributes: new { @class = "control-label" })
+            @Html.EditorFor(model => model.SoLuongTon, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.SoLuongTon, "", new { @class = "text-danger" })
+        </div>
+
+        @Html.HiddenFor(model => model.MaSP)
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            @Html.ActionLink("Back to List", "QLSP", null, new { @class = "btn btn-secondary" })
+        </div>
+    }
+}

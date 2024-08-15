@@ -1,0 +1,59 @@
+﻿@using System.Linq
+@{
+    ViewBag.Title = "Procedure";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Procedure</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <form id="deleteForm">
+                <label for="MaHDInput">Nhập mã hóa đơn để xóa:</label>
+                <input type="text" id="MaHDInput" />
+                <button type="button" onclick="deleteHoaDon()">Xóa</button>
+            </form>
+        </div>
+
+        <div id="renderedContent"></div>
+        <button id="renderButton">Lấy 5 sản phẩm đắt nhất</button>
+    </div>
+    <script>
+    function deleteHoaDon() {
+        var maHD = document.getElementById('MaHDInput').value;
+
+        fetch('@Url.Action("XoaHoaDonVaCacBangLienQuan", "Admin")', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ MaHD: maHD })
+        })
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('resultDiv').innerHTML = data;
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    }
+
+    document.getElementById('renderButton').addEventListener('click', function() {
+    fetch('@Url.Action("Lay5SanPham", "Admin")')
+        .then(function(response) {
+            return response.text();
+        })
+        .then(function(data) {
+            document.getElementById('renderedContent').innerHTML = data;
+        })
+        .catch(function(error) {
+            console.error('Đã xảy ra lỗi:', error);
+        });
+    });
+    </script>
+</body>
+</html>

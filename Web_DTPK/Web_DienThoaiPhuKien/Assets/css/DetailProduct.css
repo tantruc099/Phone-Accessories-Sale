@@ -1,0 +1,11 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tr_cost, .tr_decription, .tr_image, .tr_button {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,.03);
+}

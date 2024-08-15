@@ -1,0 +1,25 @@
+﻿@model Web_DienThoaiPhuKien.Models.HoaDon
+
+@if (Model != null)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>Mã HD</th>
+                <th>Mã KH</th>
+                <th>Ngày Đặt</th>
+                <th>Thành tiền</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.MaHD</td>
+                <td>@Model.MaKH</td>
+                <td>@Model.NgayDat</td>
+                <td>@Model.ThanhTien</td>
+                <td>@Model.TrangThai</td>
+            </tr>
+        </tbody>
+    </table>
+}

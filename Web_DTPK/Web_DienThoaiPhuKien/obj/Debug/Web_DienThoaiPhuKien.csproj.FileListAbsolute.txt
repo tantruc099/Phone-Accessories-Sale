@@ -1,0 +1,370 @@
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll.config
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.pdb
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe.config
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.rsp
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe.config
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.rsp
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Managed.Core.targets
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.AppContext.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Collections.Immutable.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Console.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Globalization.Calendars.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Http.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Sockets.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Reflection.Metadata.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.ValueTuple.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XmlDocument.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe.config
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.rsp
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe.config
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\Microsoft.Web.Infrastructure.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Webpages.Deployment.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Webpages.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Webpages.Razor.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\X.PagedList.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\X.PagedList.Mvc.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.xml
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Webpages.xml
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Webpages.Deployment.xml
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Webpages.Razor.xml
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.xml
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.xml
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.AssemblyReference.cache
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CoreCompileInputs.cache
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CopyComplete
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.dll
+D:\BaiTap\Codes & More\LTW\web + db (edit1)\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.pdb
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll.config
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.pdb
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe.config
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.rsp
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe.config
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.rsp
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.AppContext.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Console.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Http.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.ValueTuple.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe.config
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.rsp
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\X.PagedList.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\X.PagedList.Mvc.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.xml
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.xml
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.xml
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.xml
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.xml
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.AssemblyReference.cache
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CoreCompileInputs.cache
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CopyComplete
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.dll
+C:\Users\HAOKEN\Desktop\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.pdb
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll.config
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.pdb
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe.config
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.rsp
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe.config
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.rsp
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Managed.Core.targets
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.AppContext.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Collections.Immutable.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Console.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Globalization.Calendars.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Http.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Sockets.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Reflection.Metadata.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.ValueTuple.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XmlDocument.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe.config
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.rsp
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe.config
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Microsoft.Web.Infrastructure.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\X.PagedList.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\X.PagedList.Mvc.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.xml
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.xml
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.xml
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.xml
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.xml
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.xml
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.AssemblyReference.cache
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CoreCompileInputs.cache
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CopyComplete
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.dll
+D:\BaiTap\Codes & More\LTW\Nhom9_QLCuaHangDienThoai\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.pdb
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll.config
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.pdb
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe.config
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.rsp
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe.config
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.rsp
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.AppContext.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Console.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Http.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Sockets.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.ValueTuple.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe.config
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.rsp
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\X.PagedList.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\X.PagedList.Mvc.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.xml
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.xml
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.xml
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.xml
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.xml
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.AssemblyReference.cache
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CoreCompileInputs.cache
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CopyComplete
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.dll
+C:\Users\NGHIA\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.pdb
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll.config
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Web_DienThoaiPhuKien.pdb
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.exe.config
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csc.rsp
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.exe.config
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\csi.rsp
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.AppContext.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Console.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Http.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Net.Sockets.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.ValueTuple.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.exe.config
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\vbc.rsp
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\X.PagedList.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\X.PagedList.Mvc.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Helpers.xml
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Mvc.xml
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.Razor.xml
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.xml
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\bin\System.Web.WebPages.Razor.xml
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.AssemblyReference.cache
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CoreCompileInputs.cache
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.csproj.CopyComplete
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.dll
+C:\Users\MSII\Desktop\test_moithemdo\test3\Web_DienThoaiPhuKien\obj\Debug\Web_DienThoaiPhuKien.pdb

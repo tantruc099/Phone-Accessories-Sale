@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "DetailProduct";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+
+
+@model Web_DienThoaiPhuKien.Models.SanPham
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Assets/css/DetailProduct.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="content__blog-title">
+            <h2>Details Product</h2>
+            <span class="content__blog-span"></span>
+        </div>
+        <div class="card border" style="border: none">
+            <table class="mx-3 mb-3 mt-3">
+                <tr class="tr_image">
+                    <td rowspan="5" width="40%">
+                        <img class="card-header" src="@Url.Content("~/Assets/image/products/" + Model.HinhAnh)" width="100%" height="100%" alt="Image" />
+                    </td>
+                    <td width="20%" style="text-align: center">Tên sản phẩm:</td>
+                    <td width="40%" style="font-weight: bold; color: blue">@Model.TenSP</td>
+                </tr>
+                <tr class="tr_cost">
+                    <td style="text-align: center">Giá tiền:</td>
+                    <td style="font-weight: bold; color: red">@string.Format("{0:0,0}", Model.Gia) VNĐ</td>
+                </tr>
+                <tr class="tr_decription">
+                    <td style="text-align: center">Mô tả:</td>
+                    <td style="font-weight: bold; color: blue">@Model.MoTa</td>
+                </tr>
+                <tr class="tr_button">
+                    <td style="text-align: center">
+                        <a href="@Url.Action("AddProduct", "GioHang", new { @MaSP = Model.MaSP, @strURL = Request.Url.ToString()})">
+                            <input type="submit" value="THÊM VÀO GIỎ" class="btn btn-outline-danger" />
+                        </a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("AllProduct", "Product")">
+                            <input type="submit" value="MUA TIẾP" class="btn btn-outline-danger" />
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            @Html.ActionLink("Trở về", "QLSP")
+        </div>
+    </div>
+</body>
+</html>

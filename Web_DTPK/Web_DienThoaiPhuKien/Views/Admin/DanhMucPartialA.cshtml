@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Web_DienThoaiPhuKien.Models.DanhMuc>
+
+@foreach (var item in Model)
+{
+    if (item.MaDM == ViewBag.MaDM)
+    {
+        @item.TenDM
+    }
+}

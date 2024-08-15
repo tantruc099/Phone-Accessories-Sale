@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Web_DienThoaiPhuKien.Models.DanhMuc>
+
+<ul class="d-flex" style="text-decoration: none; list-style: none">
+    @foreach (var item in Model)
+    {
+        <li class="header__menu-item item-products">
+            <a href="/Product/DanhMucProduct/?MaDM=@item.MaDM">@item.TenDM</a>
+        </li>
+    }
+</ul>

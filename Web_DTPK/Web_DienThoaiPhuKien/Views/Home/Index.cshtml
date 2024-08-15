@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang Chủ</title>
+</head>
+<body>
+    <h2>Trang Chủ</h2>
+    @if (Session["UserID"] != null)
+    {
+        <p>Xin chào, người dùng có ID là @Session["UserID"]</p>
+    }
+    else
+    {
+        <p>Vui lòng đăng nhập để xem thông tin tài khoản.</p>
+    }
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "AllProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using PagedList
+@model IPagedList<Web_DienThoaiPhuKien.Models.SanPham>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Assets/css/AllProduct.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="content__blog-title">
+            <h2>All Products</h2>
+            <span class="content__blog-span"></span>
+        </div>
+        <div class="row">
+            @{
+                foreach (var item in Model)
+                {
+                    <div class="col-3">
+                        <div class="img-product">
+                            <img src="~/Assets/image/products/@item.HinhAnh" />
+                        </div>
+                        <div class="text-nameproduct">
+                            @if (item.TenSP.Length > 35)
+                            {
+                                <p><b>@item.TenSP.Substring(0, 35)...</b></p>
+                            }
+                            else
+                            {
+                                <p><b>@item.TenSP</b></p>
+                            }
+                        </div>
+                        <div class="text-cost d-flex">
+                            <p>@string.Format("{0:0,0}", item.Gia)<p style="text-decoration: underline">VNĐ</p></p>
+                        </div>
+                        <div class="detail_product">
+                            <a href="@Url.Action("DetailProduct", new { MaSP = item.MaSP})">Chi tiết sản phẩm</a>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div class="pagination">
+            <div class="active"></div>@PagedList.Mvc.HtmlHelper.PagedListPager(Html, Model, page => Url.Action("AllProduct", new { page }))
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.col-3 {
+    width: 500px;
+    height: 400px;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+    padding-top: 15px;
+}
+
+.col-3:hover {
+    transform: translateY(-8px);
+}
+
+.col-3:hover .text-nameproduct p {
+    color: lightcoral;
+}
+
+.col-3:hover .detail_product a{
+    display: block;
+}
+/*Sản phẩm*/
+.img-product {
+    width: 100%;
+    height: 60%;
+}
+
+.img-product img{
+    width: 100%;
+    height: 100%;
+}
+
+.text-nameproduct{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+.text-nameproduct p{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.text-cost {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+.text-cost p{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    color: red;
+    font-weight: bold;
+}
+.detail_product {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: white;
+}
+.detail_product a{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.pagination {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination .active {
+  background-color: lightcoral;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}

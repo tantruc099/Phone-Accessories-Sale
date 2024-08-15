@@ -1,0 +1,178 @@
+﻿@model Web_DienThoaiPhuKien.Models.Register
+
+@{
+    ViewBag.Title = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .registration-form {
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .title {
+            text-align: center;
+        }
+
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .form-control {
+            width: 300px;
+            text-align: center;
+        }
+            .form-group label {
+                display: flex;
+                align-items: center;
+                width: 25%;
+                min-width: 100px;
+                margin-right: 10px;
+            }
+
+            .form-group input[type="text"],
+            .form-group input[type="password"] {
+                flex: 1;
+                padding: 8px;
+            }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .custom-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+            .custom-button:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body style="background-image: url('/Assets/image/background.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+    <div class="container">
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+        {
+            <div class="registration-form">
+                <h2 class="title">Đăng ký tài khoản</h2>
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <i class="far fa-user"></i>
+                    @Html.LabelFor(m => m.HoTen)
+                    @Html.TextBoxFor(m => m.HoTen, new { @class = "form-control", id = "HoTen" })
+                    @Html.ValidationMessageFor(m => m.HoTen)
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-calendar-alt"></i>
+                    @Html.LabelFor(m => m.DiaChi)
+                    @Html.TextBoxFor(m => m.DiaChi, new { @class = "form-control", id = "DiaChi" })
+                    @Html.ValidationMessageFor(m => m.DiaChi)
+                </div>
+                <div class="form-group">
+                    <i class="far fa-envelope"></i>
+                    @Html.LabelFor(m => m.Email)
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", id = "Email" })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-phone"></i>
+                    @Html.LabelFor(m => m.DienThoai)
+                    @Html.TextBoxFor(m => m.DienThoai, new { @class = "form-control", id = "DienThoai" })
+                    @Html.ValidationMessageFor(m => m.DienThoai)
+                </div>
+                <div class="form-group">
+                    <i class="far fa-user"></i>
+                    @Html.LabelFor(m => m.Username)
+                    @Html.TextBoxFor(m => m.Username, new { @class = "form-control", id = "Username" })
+                    @Html.ValidationMessageFor(m => m.Username)
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-key"></i>
+                    @Html.LabelFor(m => m.Password)
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", id = "Password" })
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-key"></i>
+                    @Html.LabelFor(m => m.ConfirmPassword)
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control", id = "ConfirmPassword" })
+                    @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                </div>
+                <div id="backToHome" style="margin-bottom: 10px; cursor: pointer; color: blue;">Trở về trang chủ</div>
+                <div class="button">
+                    <button type="submit" class="custom-button">Register</button>
+                </div>
+            </div>
+        }
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('backToHome').addEventListener('click', function () {
+                var xhr = new XMLHttpRequest();
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                        if (xhr.status === 200) {
+                            // Xử lý kết quả nếu cần
+                            window.location.href = '/Product/AllProduct'; // Chuyển hướng về trang chủ
+                        } else {
+                            console.error('Lỗi khi tải trang chủ.');
+                        }
+                    }
+                };
+                xhr.open('GET', '/Product/AllProduct', true);
+                xhr.send();
+            });
+        });
+    </script>
+    <script>
+        function saveUsername() {
+            var hoTenInput = document.querySelector('input[name="HoTen"]');
+            if (hoTenInput) {
+                var tenNguoiDung = hoTenInput.value;
+                localStorage.setItem('username', tenNguoiDung);
+                console.log('Username saved:', tenNguoiDung);
+            }
+        }
+        var registerButton = document.querySelector('.button [type="submit"]');
+        if (registerButton) {
+            registerButton.addEventListener('click', function (event) {
+                saveUsername();
+            });
+        }
+    </script>
+</body>
+</html>

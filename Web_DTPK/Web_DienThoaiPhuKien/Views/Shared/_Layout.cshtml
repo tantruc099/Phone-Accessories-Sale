@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Long Tech Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="~/Assets/css/Layout.css">
+    <link rel="stylesheet" href="~/Assets/css/Responsive.css">
+    <link rel="shortcut icon" href="~/Assets/image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.header__menu-phone').click(function () {
+                $('.header__menu-list').toggleClass('hide-menu');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var us;
+            var signInBtns = document.querySelectorAll('.header__about-info-signin');
+            var signUpBtns = document.querySelectorAll('.header__about-info-signup');
+            var logoutBtn = document.querySelector('.header__about-info-logout');
+            var usernameElement = document.getElementById('username');
+
+            function updateDisplay() {
+                var storedUsername = localStorage.getItem('username');
+
+                if (storedUsername) {
+                    signInBtns.forEach(function (signInBtn) {
+                        signInBtn.style.display = 'none';
+                    });
+                    signUpBtns.forEach(function (signUpBtn) {
+                        signUpBtn.style.display = 'none';
+                    });
+                    logoutBtn.style.display = 'block';
+                    usernameElement.textContent = storedUsername;
+                } else {
+                    signInBtns.forEach(function (signInBtn) {
+                        signInBtn.style.display = 'block';
+                    });
+                    signUpBtns.forEach(function (signUpBtn) {
+                        signUpBtn.style.display = 'block';
+                    });
+                    logoutBtn.style.display = 'none';
+                    usernameElement.textContent = '';
+                }
+            }
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/Account/GetHoTen', true);
+
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    var hoTen = response.HoTen;
+
+                    us = hoTen;
+                }
+            };
+
+            xhr.send();
+            document.getElementById('signInBtn').addEventListener('click', function () {
+                localStorage.setItem('username', us);
+                updateDisplay();
+            });
+            document.getElementById('logoutBtn').addEventListener('click', function () {
+                localStorage.removeItem('username');
+                updateDisplay();
+            });
+        });
+    </script>
+</head>
+<body style="background-color: #f3f3f3">
+    <header>
+        <form method="post" action="~/Product/SearchProduct">
+            <div class="header__container">
+                <div class="header__about">
+                    <div class="header__about-sm">
+                        <a href="https://www.facebook.com/" class="header__about-sm-fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="header__about-sm-insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" class="header__about-sm-ytb">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+
+                    <div class="header__about-info">
+                        <form method="post">
+                            <!-- Nếu là admin mới xuất hiện bánh răng -->
+                            <div class="header__about-info-setting">
+                                <a href="#"> <i class="fa-solid fa-gear"></i></a>
+                            </div>
+                            <div class="header__about-info-signup">
+                                <a href="~/Account/Register">ĐĂNG KÝ</a>
+                            </div>
+                            <div class="header__about-info-signin">
+                                <a href="~/Account/Login">ĐĂNG NHẬP</a>
+                            </div>
+                            <div class="header__about-info-logout">
+                                <a href="#" id="logoutBtn">ĐĂNG XUẤT</a>
+                            </div>
+                            <div class="header__about-info-name">
+                                <p style="margin-top:3px" id="username"></p>
+                            </div>
+                            <div class="header__about-info-cart">
+                                @Html.Action("GioHangPartial", "GioHang")
+                            </div>
+                            <div class="header__about-info-search">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <input type="search" placeholder="Nhập sản phẩm muốn tìm..." class="header__about-info-search-input hide" name="txt_search" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="header__menu">
+                    <a class="header__logo" href="index.html">
+                        <img src="~/Assets/image/logo.jpg" alt="" class="header__logo-img">
+                    </a>
+                    <div class="header__menu-phone">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="header__menu-list hide-menu d-flex">
+                        <div id="home">
+                            <a class="header__menu-item item-products" href="~/Product/AllProduct" style="color: black; font-weight: 500">Trang chủ</a>
+                        </div>
+                        <div>
+                            @Html.Action("DanhMucPartial", "DanhMuc")
+                        </div>
+                        <div id="intro">
+                            <a class="header__menu-item item-products" href="Intro.html" style="color: black; font-weight: 500">Giới thiệu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </header>
+    <main>
+        <div class="slideqc">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="~/Assets/image/slide1.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="~/Assets/image/slide2.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="~/Assets/image/slider1.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="~/Assets/image/slider2.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="~/Assets/image/slider3.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="content">
+            @RenderBody()
+        </div>
+        <div class="content__blog">
+            <div class="content__blog-title">
+                <h2>TIN TỨC CÔNG NGHỆ</h2>
+                <span class="content__blog-span"></span>
+            </div>
+
+            <div class="content__blog-wrap">
+                <div class="content__blog--item">
+                    <a href="https://cellphones.com.vn/sforum/mo-hop-xiaomi-12s-ultra-gia-chi-20-trieu-nhung-ngon-hon-iphone-samsung" class="content__blog--item-link">
+                        <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/11/cover-12-350x250.jpg" alt="" class="content__blog--item-img">
+                        <h3 class="content__blog--item-title">Mở hộp và trên tay Xiaomi 12S Ultra: Giá chỉ 20 triệu nhưng “ngon” hơn iPhone, Samsung</h3>
+                    </a>
+                </div>
+                <div class="content__blog--item">
+                    <a href="https://cellphones.com.vn/sforum/samsung-tiep-tuc-da-deu-apple-khong-co-smartphone-man-hinh-gap-trong-video-quang-cao-moi" class="content__blog--item-link">
+                        <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/11/quang-cao-Samsung-face-350x250.jpeg" alt="" class="content__blog--item-img">
+                        <h3 class="content__blog--item-title">Samsung tiếp tục “đá đểu” Apple không có smartphone màn hình gập trong video quảng cáo mới</h3>
+                    </a>
+                </div>
+                <div class="content__blog--item">
+                    <a href="https://cellphones.com.vn/sforum/day-la-thong-so-chi-tiet-cum-camera-khung-cua-galaxy-s23-ultra" class="content__blog--item-link">
+                        <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/11/GALAXY-S23-ULTRA-camera-face-1-350x250.jpeg" alt="" class="content__blog--item-img">
+                        <h3 class="content__blog--item-title">Đây là thông số chi tiết cụm camera khủng của Galaxy S23 Ultra</h3>
+                    </a>
+                </div>
+                <div class="content__blog--item">
+                    <a href="https://cellphones.com.vn/sforum/oppo-a98-se-som-ra-mat-voi-man-hinh-cong-chip-snapdragon-695-va-camera-108mp" class="content__blog--item-link">
+                        <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/11/OPPO-A98-face-350x250.jpeg" alt="" class="content__blog--item-img">
+                        <h3 class="content__blog--item-title">OPPO A98 sẽ sớm ra mắt với màn hình cong, chip Snapdragon 695 và camera 108MP</h3>
+                    </a>
+                </div>
+                <div class="content__blog--item">
+                    <a href="https://cellphones.com.vn/sforum/apple-vua-qua-chua-cong-bo-5-dong-san-pham-nay-nhung-se-som-thoi" class="content__blog--item-link">
+                        <img src="https://cdn.sforum.vn/sforum/wp-content/uploads/2022/11/san-pham-apple-6-350x250.jpg" alt="" class="content__blog--item-img">
+                        <h3 class="content__blog--item-title">Apple vừa qua chưa công bố 5 dòng sản phẩm này, nhưng sẽ sớm thôi</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="content__blog-btn">
+                <button id="content__blog-btn-left">
+                    <
+                </button>
+                <button id="content__blog-btn-right">
+                    >
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span class="footer-span"></span>
+        <div class="footer-wrap">
+            <div class="footer__info">
+                <div class="footer__info-logo">
+                    <img src="~/Assets/image/logo.jpg" alt="" class="footer__info-logo-img">
+                </div>
+                <div class="footer__info-socialmeadia">
+                    <a href="https://www.facebook.com/" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=vi" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__email">
+                <h4 class="footer__email-header">ĐĂNG KÝ NHẬN TIN</h4>
+                <p class="footer__email-title">- Đăng ký Email của bạn để trở thành khách hàng đầu tiên được nhận thông tin ưu đãi mới nhất</p>
+                <input type="email" class="footer__email-email" placeholder="Nhập email của bạn...">
+            </div>
+            <div class="footer__address">
+                <h4 class="footer__address-header">ĐỊA CHỈ CỬA HÀNG</h4>
+                <p class="footer__address-title">140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP. Hồ Chí Minh</p>
+            </div>
+        </div>
+        <span class="footer-span footer-span2"></span>
+    </footer>
+    <script src="~/Assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="~/Assets/js/slideshow.js"></script>
+</body>
+</html>

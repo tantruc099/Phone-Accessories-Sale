@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Long Tech Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="~/Assets/css/Layout.css">
+    <link rel="stylesheet" href="~/Assets/css/Responsive.css">
+    <link rel="shortcut icon" href="~/Assets/image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body style="background-color: #f3f3f3">
+    <header>
+        <form method="post" action="~/Product/SearchProduct">
+            <div class="header__container">
+                <div class="header__about">
+                    <div class="header__about-sm">
+                        <a href="https://www.facebook.com/" class="header__about-sm-fb">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="header__about-sm-insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" class="header__about-sm-ytb">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+
+                    <div class="header__about-info">
+                        <form method="post">
+                            <!-- Nếu là admin mới xuất hiện bánh răng -->
+                            <div class="header__about-info-setting">
+                                <a href="#"> <i class="fa-solid fa-gear"></i></a>
+                            </div>
+                            <div class="header__about-info-signup"><a href="~/Account/Register">ĐĂNG KÝ</a></div>
+                            <div class="header__about-info-signin"><a href="~/Account/Login">ĐĂNG NHẬP</a></div>
+                            <div class="header__about-info-logout"><i class="fa-solid fa-right-from-bracket"></i></div>
+                            <div class="header__about-info-name"><p></p></div>
+                            <div class="header__about-info-cart">
+                                @Html.Action("GioHangPartial", "GioHang")
+                            </div>
+                            <div class="header__about-info-search">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                <input type="search" placeholder="Nhập sản phẩm muốn tìm..." class="header__about-info-search-input hide" name="txt_search" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="header__menu">
+                    <a class="header__logo" href="index.html">
+                        <img src="~/Assets/image/logo.jpg" alt="" class="header__logo-img">
+                    </a>
+                    <div class="header__menu-phone">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="header__menu-list hide-menu d-flex">
+                        <div id="home">
+                            <a class="header__menu-item item-products" href="~/Admin/Function" style="color: black; font-weight: 500">Function</a>
+                        </div>
+                        <div>
+                            <a class="header__menu-item item-products" href="~/Admin/Procedure" style="color: black; font-weight: 500">Procedure</a>
+                        </div>
+                        <div>
+                            <a class="header__menu-item item-products" href="~/Admin/QLSP" style="color: black; font-weight: 500">Sản phẩm</a>
+                        </div>
+                        <div>
+                            <a class="header__menu-item item-products" href="~/Admin/ThongKe" style="color: black; font-weight: 500">Thống kê</a>
+                        </div>
+                        <div>
+                            <a class="header__menu-item item-products" href="~/Admin/QuanLyHoaDon" style="color: black; font-weight: 500">Hoá đơn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </header>
+    <main>
+        <div class="content">
+            @RenderBody()
+        </div>
+    </main>
+    <footer>
+        <span class="footer-span"></span>
+        <div class="footer-wrap">
+            <div class="footer__info">
+                <div class="footer__info-logo">
+                    <img src="~/Assets/image/logo.jpg" alt="" class="footer__info-logo-img">
+                </div>
+                <div class="footer__info-socialmeadia">
+                    <a href="https://www.facebook.com/" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=vi" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="footer__info-socialmeadia-link">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__email">
+                <h4 class="footer__email-header">ĐĂNG KÝ NHẬN TIN</h4>
+                <p class="footer__email-title">- Đăng ký Email của bạn để trở thành khách hàng đầu tiên được nhận thông tin ưu đãi mới nhất</p>
+                <input type="email" class="footer__email-email" placeholder="Nhập email của bạn...">
+            </div>
+            <div class="footer__address">
+                <h4 class="footer__address-header">ĐỊA CHỈ CỬA HÀNG</h4>
+                <p class="footer__address-title">140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP. Hồ Chí Minh</p>
+            </div>
+        </div>
+        <span class="footer-span footer-span2"></span>
+    </footer>
+    <script src="~/Assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="~/Assets/js/slideshow.js"></script>
+</body>
+</html>
